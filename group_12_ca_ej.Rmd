@@ -13,16 +13,18 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(janitor)
 library(here)
-library(palmerpenguins)
+library(hexbin)
+
 ```
 
 ```{r}
 ces <- read_csv(here("data", "ces3demographics.csv")) %>%
-  clean_names()
+  janitor::clean_names()
 ```
 
 ```{r}
 ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
-  geom_point()
+  geom_hex() + 
+  labs( x = "Percent White Population", y = "CalEnviroScreen 3.0 Score", title= "Relationship Between Percent White Population and CES 3.0 Score", subtitle = "Data from CEJA Green Zones Manager Tiffany Eng") 
 ```
 
