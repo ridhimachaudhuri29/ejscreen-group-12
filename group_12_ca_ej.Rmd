@@ -25,6 +25,8 @@ ces <- read_csv(here("data", "ces3demographics.csv")) %>%
 ```{r}
 ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   geom_hex() + 
+  scale_fill_gradient(low = "blue", high = "coral") +
+  theme_minimal() +
   labs( x = "Percent White Population", y = "CalEnviroScreen 3.0 Score", title= "Relationship Between Percent White Population and CES 3.0 Score", subtitle = "Data from CEJA Green Zones Manager Tiffany Eng") 
 ```
 
