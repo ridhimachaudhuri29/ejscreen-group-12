@@ -5,8 +5,8 @@ date: "11/14/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include = TRUE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 ```{r}
@@ -14,7 +14,6 @@ library(tidyverse)
 library(janitor)
 library(here)
 library(hexbin)
-
 ```
 
 ```{r}
@@ -30,3 +29,5 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   labs( x = "Percent White Population", y = "CalEnviroScreen 3.0 Score", title= "Relationship Between Percent White Population and CES 3.0 Score", subtitle = "Data from CEJA Green Zones Manager Tiffany Eng") 
 ```
 
+
+ **Figure 1**: A comparison between percent white population and the CalEnviroScreen 3.0 Score. Pink values indicate a higher count of observations,  blue values indicate a lower count of observations. 
