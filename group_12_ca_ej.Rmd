@@ -1,6 +1,10 @@
 ---
 title: "group 12 CA pollution burden"
+<<<<<<< HEAD
 author: "Ridhima Chaudhuri and Kat Orellana"
+=======
+author: "Ridhima chaudhuri & Katherine Orellana"
+>>>>>>> 1e5ef4752d715696b3aa6feef59bc71e6b38665f
 date: "11/14/2021"
 output: html_document
 ---
@@ -26,7 +30,7 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   geom_hex() + 
   scale_fill_gradient(low = "blue", high = "coral") +
   theme_minimal() +
-  labs( x = "Percent White Population", y = "CalEnviroScreen 3.0 Score", title= "Relationship Between Percent White Population and CES 3.0 Score", subtitle = "Data from CEJA Green Zones Manager Tiffany Eng") 
+  labs( x = "Percent White Population", y = "CalEnviroScreen 3.0 Score", title= "Relationship Between Percent White Population and CES 3.0 Score", subtitle = "Data from California Office of Environmental Health Hazard Assessment (2018)") 
 ```
 
 
