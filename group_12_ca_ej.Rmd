@@ -1,6 +1,6 @@
 ---
 title: "group 12 CA pollution burden"
-author: "Ridhima chaudhuri"
+author: "Ridhima Chaudhuri and Kat Orellana"
 date: "11/14/2021"
 output: html_document
 ---
@@ -34,4 +34,4 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
  
 As the percent white population within a community increases, the CalEnviroScreen 3.0 score decreases. The CalEnviroScreen 3.0 score indicates higher cumulative pollution burdens, therefore communities with a higher percentage of white residents are less likely to experience high pollution burdens in comparison to communities with a lower percentage of white residents. 
 
-Data Citation: California Office of Environmental Health Hazard Assessment, (2018). "CalEnviroScreen 3.0", California Environmental Protection Agency. https://data.ca.gov/dataset/calenviroscreen-3-0-results
+**Data Citation**: California Office of Environmental Health Hazard Assessment, (2018). "CalEnviroScreen 3.0", California Environmental Protection Agency. https://data.ca.gov/dataset/calenviroscreen-3-0-results
