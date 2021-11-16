@@ -31,3 +31,7 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
 
 
  **Figure 1**: A comparison between percent white population and the CalEnviroScreen 3.0 Score. Pink values indicate a higher count of observations,  blue values indicate a lower count of observations. 
+ 
+As the percent white population within a community increases, the CalEnviroScreen 3.0 score decreases. The CalEnviroScreen 3.0 score indicates higher cumulative pollution burdens, therefore communities with a higher percentage of white residents are less likely to experience high pollution burdens in comparison to communities with a lower percentage of white residents. 
+
+Data Citation: California Office of Environmental Health Hazard Assessment, (2018). "CalEnviroScreen 3.0", California Environmental Protection Agency. https://data.ca.gov/dataset/calenviroscreen-3-0-results
