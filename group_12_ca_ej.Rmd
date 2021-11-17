@@ -1,10 +1,6 @@
 ---
 title: "group 12 CA pollution burden"
-<<<<<<< HEAD
-author: "Ridhima Chaudhuri and Kat Orellana"
-=======
 author: "Ridhima chaudhuri & Katherine Orellana"
->>>>>>> 1e5ef4752d715696b3aa6feef59bc71e6b38665f
 date: "11/14/2021"
 output: html_document
 ---
